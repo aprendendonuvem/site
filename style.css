@@ -1,0 +1,68 @@
+*{ margin: 0; padding: 0;}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img {    
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    height: 50px;
+}
+a{ text-decoration: none;}
+.fundo{     background-image: url("fundo.webp");
+    background-position: center;
+}
+.secretaria{
+    height: 200px;
+}
+section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.borda{background-color: aliceblue;
+    border-radius: 30px;
+    padding: 30px;
+    width: 200px;}
+section h1{    
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    background-color: aquamarine;
+    
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+}
+aside{
+    display: flex;
+    background-color: red;
+    padding: 30px;
+    justify-content: space-between;    
+}
+aside a {border-left: 3px solid blue;}
+aside a span { margin: 4px;}
+.colun{
+    flex-direction: column;
+}
+.contato{ background-color: rgba(24, 22, 22, 0.194); display: flex;flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+.vermelho{ background-color: red;}
